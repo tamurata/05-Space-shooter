@@ -57,7 +57,7 @@ class Enemy_Bullet(arcade.Sprite):
 class Player(arcade.Sprite):
     def __init__(self):
         self.hp = PLAYER_HP
-        super().__init__("assets/straship2.PNG", 0.2)
+        super().__init__("assets/straship2.PNG", 0.3)
         (self.center_x, self.center_y) = STARTING_LOCATION
 
 class Enemy(arcade.Sprite):
